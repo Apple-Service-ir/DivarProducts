@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(199, 224, 240);
+    color: rgb(13, 126, 196);
+    border: 1px solid rgb(13, 126, 196);
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(13, 126, 196);
+    color: white;
+}
+
+.danger{
+    background-color: transparent;
+    color: rgb(187, 46, 46);
+    border: 1px solid rgb(150, 23, 23);
+}
+
+.success{
+    background-color: rgb(220, 247, 220);
+    color: rgb(40, 138, 40);
+    border: 1px solid rgb(11, 136, 11);
+}
+
+.danger:hover{
+    background-color: rgb(187, 46, 46);
+    color: white;
+}
+
+.success:hover{
+    color: white;
+    background-color: rgb(40, 138, 40);
+}

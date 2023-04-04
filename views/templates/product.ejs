@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/css/product.css">
+
+<div class="product" id="c-<%=product.id%>">
+    <div class="product-rightSide">
+        <h2 class="product-title">
+            <a href="<%=product.url%>"><%=product.title%></a>
+            <button class="success acceptBtn" id="<%=product.id%>">تایید</button><button class="danger rejectBtn" id="<%=product.id%>">حذف</button>
+        </h2>
+        <p class="product-price"><%=product.price%></p>
+        <p class="product-footer"><%= (product.isProductSalesByShop) ? "فروشگاه" : "شخص" %></p>
+    </div>
+    <div class="product-leftSide">
+        <img src="<%=product.picture%>" alt="" class="product-image">
+    </div>
+</div>

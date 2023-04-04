@@ -1,0 +1,12 @@
+{
+    "app": {
+      "port": 80,
+      "secret" : "SECRET CODE HERE"
+    },
+    "database": {
+      "host": "HOST",
+      "user": "USER",
+      "password": "PASSWORD",
+      "name": "DATABASE NAME"
+    }
+  }

@@ -1,0 +1,24 @@
+body{
+    background-color: #f3f3f3;
+}
+
+h1{
+    margin: 20px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 15px;
+}
+
+.product-handler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-handler > div{
+    width: 83%;
+}
+
+.product{
+    transition: opacity .2s ease-in-out;
+}

@@ -1,0 +1,71 @@
+.flash{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #cbc9f8;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--main-color);
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-SemiBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazirmatn-RD-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+*{
+  font-family: 'vazir';
+  font-weight: bold;
+}
